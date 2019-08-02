@@ -1,0 +1,7 @@
+# BeautifulRequests document generator jazzy settings
+
+copyright: Copyright 2019 Tyler
+author: Tyler
+xcodebuild_arguments: [-target, BeautifulRequests-iOS]
+clean: true
+output: ./Documentation
