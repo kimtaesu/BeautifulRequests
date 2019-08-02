@@ -23,6 +23,13 @@
 		3D9C432E2274629C000A6585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9C432C2274629C000A6585 /* LaunchScreen.storyboard */; };
 		3D9C433422746323000A6585 /* BeautifulRequests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* BeautifulRequests.framework */; };
 		3D9C433522746323000A6585 /* BeautifulRequests.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* BeautifulRequests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD7CA17C22F4C11B00992B4E /* HTTPLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17122F4C11A00992B4E /* HTTPLog.swift */; };
+		BD7CA17D22F4C11B00992B4E /* BeautifulWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17322F4C11A00992B4E /* BeautifulWrapper.swift */; };
+		BD7CA17E22F4C11B00992B4E /* AssertMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17422F4C11A00992B4E /* AssertMainThread.swift */; };
+		BD7CA18022F4C11B00992B4E /* BeautifulErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17622F4C11A00992B4E /* BeautifulErrors.swift */; };
+		BD7CA18122F4C11B00992B4E /* ImageRemoteSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17822F4C11B00992B4E /* ImageRemoteSource.swift */; };
+		BD7CA18222F4C11B00992B4E /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17922F4C11B00992B4E /* ImageRepository.swift */; };
+		BD7CA18322F4C11B00992B4E /* UIImageView+Beautiful.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17B22F4C11B00992B4E /* UIImageView+Beautiful.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +108,13 @@
 		3DB91AC4229AC263002668DA /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = SOURCE_ROOT; };
 		3DB91AC5229AC26C002668DA /* .gitlab-ci.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gitlab-ci.yml"; sourceTree = SOURCE_ROOT; };
 		3DB91AC6229AC272002668DA /* azure-pipelines.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = "azure-pipelines.yml"; sourceTree = SOURCE_ROOT; };
+		BD7CA17122F4C11A00992B4E /* HTTPLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPLog.swift; sourceTree = "<group>"; };
+		BD7CA17322F4C11A00992B4E /* BeautifulWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulWrapper.swift; sourceTree = "<group>"; };
+		BD7CA17422F4C11A00992B4E /* AssertMainThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssertMainThread.swift; sourceTree = "<group>"; };
+		BD7CA17622F4C11A00992B4E /* BeautifulErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulErrors.swift; sourceTree = "<group>"; };
+		BD7CA17822F4C11B00992B4E /* ImageRemoteSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRemoteSource.swift; sourceTree = "<group>"; };
+		BD7CA17922F4C11B00992B4E /* ImageRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
+		BD7CA17B22F4C11B00992B4E /* UIImageView+Beautiful.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Beautiful.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +231,11 @@
 		3D9C42A0227458FA000A6585 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				BD7CA17222F4C11A00992B4E /* Common */,
+				BD7CA17A22F4C11B00992B4E /* Extensions */,
+				BD7CA17722F4C11B00992B4E /* Repository */,
+				BD7CA17422F4C11A00992B4E /* AssertMainThread.swift */,
+				BD7CA17122F4C11A00992B4E /* HTTPLog.swift */,
 				3D9C42A122745900000A6585 /* BeautifulRequests.swift */,
 			);
 			path = Sources;
@@ -249,6 +268,32 @@
 				3D9C432F2274629C000A6585 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		BD7CA17222F4C11A00992B4E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BD7CA17322F4C11A00992B4E /* BeautifulWrapper.swift */,
+				BD7CA17622F4C11A00992B4E /* BeautifulErrors.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BD7CA17722F4C11B00992B4E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				BD7CA17822F4C11B00992B4E /* ImageRemoteSource.swift */,
+				BD7CA17922F4C11B00992B4E /* ImageRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		BD7CA17A22F4C11B00992B4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BD7CA17B22F4C11B00992B4E /* UIImageView+Beautiful.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,7 +487,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Tyler";
+				ORGANIZATIONNAME = Tyler;
 				TargetAttributes = {
 					3D9C428F22745894000A6585 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -637,7 +682,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7CA18322F4C11B00992B4E /* UIImageView+Beautiful.swift in Sources */,
+				BD7CA18122F4C11B00992B4E /* ImageRemoteSource.swift in Sources */,
+				BD7CA17E22F4C11B00992B4E /* AssertMainThread.swift in Sources */,
+				BD7CA17C22F4C11B00992B4E /* HTTPLog.swift in Sources */,
+				BD7CA18222F4C11B00992B4E /* ImageRepository.swift in Sources */,
+				BD7CA18022F4C11B00992B4E /* BeautifulErrors.swift in Sources */,
 				3D9C42A222745900000A6585 /* BeautifulRequests.swift in Sources */,
+				BD7CA17D22F4C11B00992B4E /* BeautifulWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
