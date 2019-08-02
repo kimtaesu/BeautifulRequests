@@ -30,6 +30,9 @@
 		BD7CA18122F4C11B00992B4E /* ImageRemoteSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17822F4C11B00992B4E /* ImageRemoteSource.swift */; };
 		BD7CA18222F4C11B00992B4E /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17922F4C11B00992B4E /* ImageRepository.swift */; };
 		BD7CA18322F4C11B00992B4E /* UIImageView+Beautiful.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17B22F4C11B00992B4E /* UIImageView+Beautiful.swift */; };
+		BD7CA18522F4C33800992B4E /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA18422F4C33800992B4E /* DataProvider.swift */; };
+		BD7CA18A22F4C3CE00992B4E /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA18822F4C3CD00992B4E /* ThumbnailCell.swift */; };
+		BD7CA18B22F4C3CE00992B4E /* ThumbnailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD7CA18922F4C3CD00992B4E /* ThumbnailCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +118,9 @@
 		BD7CA17822F4C11B00992B4E /* ImageRemoteSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRemoteSource.swift; sourceTree = "<group>"; };
 		BD7CA17922F4C11B00992B4E /* ImageRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
 		BD7CA17B22F4C11B00992B4E /* UIImageView+Beautiful.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Beautiful.swift"; sourceTree = "<group>"; };
+		BD7CA18422F4C33800992B4E /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		BD7CA18822F4C3CD00992B4E /* ThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
+		BD7CA18922F4C3CD00992B4E /* ThumbnailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThumbnailCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,8 +259,11 @@
 		3D9C43222274629B000A6585 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				BD7CA18822F4C3CD00992B4E /* ThumbnailCell.swift */,
+				BD7CA18922F4C3CD00992B4E /* ThumbnailCell.xib */,
 				3D9C43232274629B000A6585 /* AppDelegate.swift */,
 				3D9C43252274629B000A6585 /* ViewController.swift */,
+				BD7CA18422F4C33800992B4E /* DataProvider.swift */,
 				3D9C4333227462B9000A6585 /* Resources */,
 			);
 			path = Example;
@@ -596,6 +605,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9C432E2274629C000A6585 /* LaunchScreen.storyboard in Resources */,
+				BD7CA18B22F4C3CE00992B4E /* ThumbnailCell.xib in Resources */,
 				3D9C432B2274629C000A6585 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -745,7 +755,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7CA18522F4C33800992B4E /* DataProvider.swift in Sources */,
 				3D9C43262274629B000A6585 /* ViewController.swift in Sources */,
+				BD7CA18A22F4C3CE00992B4E /* ThumbnailCell.swift in Sources */,
 				3D9C43242274629B000A6585 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
