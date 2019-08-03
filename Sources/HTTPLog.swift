@@ -31,7 +31,7 @@ class HTTPLog {
       requestLog += "\n\(NSString(data: body, encoding: String.Encoding.utf8.rawValue)!)\n"
     }
 
-    requestLog += "\n------------------------->\n";
+    requestLog += "\n------------------------->\n"
     print(requestLog)
   }
 
@@ -67,7 +67,7 @@ class HTTPLog {
       responseLog += "\nError: \(error!.localizedDescription)\n"
     }
 
-    responseLog += "<------------------------\n";
+    responseLog += "<------------------------\n"
     print(responseLog)
   }
 }

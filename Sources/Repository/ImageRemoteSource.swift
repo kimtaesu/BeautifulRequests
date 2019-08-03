@@ -12,7 +12,7 @@ class ImageRemoteSource {
   open var timeoutInterval = 5.0
   private var session: URLSession
   open weak var sessionDelegate: URLSessionDelegate?
-  
+
   init() {
     session = URLSession(
       configuration: sessionConfiguration,
@@ -31,38 +31,39 @@ class ImageRemoteSource {
       session = URLSession(configuration: sessionConfiguration, delegate: sessionDelegate, delegateQueue: nil)
     }
   }
-  
-  func retrieveImage(with url: URL, completionHandler: ((Result<UIImage, Error>) -> Void)? = nil) {
+}
+
+extension ImageRemoteSource: ImageRepository {
+  func retrieveImage(with url: URL, completionHandler: @escaping (Result<UIImage, Error>) -> Void) {
     //  URL로드는 원본 소스에서만로드해야합니다.
     // .reloadIgnoringLocalCacheData
     let urlRequest = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: timeoutInterval)
-    
+
     defer { HTTPLog.log(request: urlRequest) }
-    
+
     let downloadTask = session.dataTask(with: urlRequest, completionHandler: { data, response, error in
       guard let response = response, let data = data else {
-        completionHandler?(.failure(BeautifulErrors.unknwon))
+        completionHandler(.failure(BeautifulErrors.unknwon))
         return
       }
       guard let httpResponse = response as? HTTPURLResponse else {
-        completionHandler?(.failure(BeautifulErrors.nonHTTPResponse(res: response)))
+        completionHandler(.failure(BeautifulErrors.nonHTTPResponse(res: response)))
         return
       }
       defer { HTTPLog.log(data: data, response: httpResponse, error: error) }
       if 200 ..< 300 ~= httpResponse.statusCode {
         if let image = UIImage(data: data) {
-          completionHandler?(.success(image))
+          completionHandler(.success(image))
         } else {
-          completionHandler?(.failure(BeautifulErrors.noImage(data)))
+          completionHandler(.failure(BeautifulErrors.noImage(data)))
         }
         return
       } else {
-        completionHandler?(.failure(BeautifulErrors.httpRequestFailed(httpResponse)))
+        completionHandler(.failure(BeautifulErrors.httpRequestFailed(httpResponse)))
         return
       }
     })
     downloadTask.resume()
   }
 }
-
-class URLSessionDelegate: NSObject, URLSessionDataDelegate {}
+class URLSessionDelegate: NSObject, URLSessionDataDelegate { }

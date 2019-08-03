@@ -8,31 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		3D9C42A222745900000A6585 /* BeautifulRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* BeautifulRequests.swift */; };
-		3D9C42B1227459C1000A6585 /* BeautifulRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* BeautifulRequests.swift */; };
-		3D9C42BF227459F6000A6585 /* BeautifulRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* BeautifulRequests.swift */; };
-		3D9C42CD22745A28000A6585 /* BeautifulRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* BeautifulRequests.swift */; };
 		3D9C42F62274604A000A6585 /* BeautifulRequests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* BeautifulRequests.framework */; };
 		3D9C42FC22746078000A6585 /* BeautifulRequestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42D722745CDE000A6585 /* BeautifulRequestsTests.swift */; };
-		3D9C43062274611B000A6585 /* BeautifulRequests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C42A92274599D000A6585 /* BeautifulRequests.framework */; };
-		3D9C430C22746131000A6585 /* BeautifulRequestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42D722745CDE000A6585 /* BeautifulRequestsTests.swift */; };
-		3D9C431622746198000A6585 /* BeautifulRequests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C42C522745A07000A6585 /* BeautifulRequests.framework */; };
-		3D9C431C227461AF000A6585 /* BeautifulRequestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42D722745CDE000A6585 /* BeautifulRequestsTests.swift */; };
 		3D9C43242274629B000A6585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C43232274629B000A6585 /* AppDelegate.swift */; };
 		3D9C43262274629B000A6585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C43252274629B000A6585 /* ViewController.swift */; };
 		3D9C432B2274629C000A6585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9C432A2274629C000A6585 /* Assets.xcassets */; };
 		3D9C432E2274629C000A6585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9C432C2274629C000A6585 /* LaunchScreen.storyboard */; };
 		3D9C433422746323000A6585 /* BeautifulRequests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* BeautifulRequests.framework */; };
 		3D9C433522746323000A6585 /* BeautifulRequests.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* BeautifulRequests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9EC3570D0348DD34DCA6CCDD /* Pods_BeautifulRequests_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D49F978DA687AFCF2212F6 /* Pods_BeautifulRequests_iOSTests.framework */; };
+		AA0FD04247184E4872B37A03 /* Pods_BeautifulRequests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C865C70C425201E9E83A1726 /* Pods_BeautifulRequests_iOS.framework */; };
+		BD58EF4222F503D90023E6BF /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58EF4122F503D90023E6BF /* ImageRepository.swift */; };
+		BD58EF4822F507D20023E6BF /* StubImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58EF4422F507990023E6BF /* StubImageRequest.swift */; };
+		BD58EF4922F507D20023E6BF /* SubDispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58EF4622F507B00023E6BF /* SubDispatching.swift */; };
+		BD58EF4D22F509C80023E6BF /* ImageReuqest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58EF4C22F509C80023E6BF /* ImageReuqest.swift */; };
 		BD7CA17C22F4C11B00992B4E /* HTTPLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17122F4C11A00992B4E /* HTTPLog.swift */; };
 		BD7CA17D22F4C11B00992B4E /* BeautifulWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17322F4C11A00992B4E /* BeautifulWrapper.swift */; };
 		BD7CA17E22F4C11B00992B4E /* AssertMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17422F4C11A00992B4E /* AssertMainThread.swift */; };
 		BD7CA18022F4C11B00992B4E /* BeautifulErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17622F4C11A00992B4E /* BeautifulErrors.swift */; };
 		BD7CA18122F4C11B00992B4E /* ImageRemoteSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17822F4C11B00992B4E /* ImageRemoteSource.swift */; };
-		BD7CA18222F4C11B00992B4E /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17922F4C11B00992B4E /* ImageRepository.swift */; };
 		BD7CA18322F4C11B00992B4E /* UIImageView+Beautiful.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17B22F4C11B00992B4E /* UIImageView+Beautiful.swift */; };
 		BD7CA18522F4C33800992B4E /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA18422F4C33800992B4E /* DataProvider.swift */; };
 		BD7CA18A22F4C3CE00992B4E /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA18822F4C3CD00992B4E /* ThumbnailCell.swift */; };
 		BD7CA18B22F4C3CE00992B4E /* ThumbnailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD7CA18922F4C3CD00992B4E /* ThumbnailCell.xib */; };
+		BD7CA18D22F4CAA300992B4E /* Dispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA18C22F4CAA300992B4E /* Dispatching.swift */; };
+		BD7CA19222F4CDB800992B4E /* Dispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA18C22F4CAA300992B4E /* Dispatching.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,20 +42,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3D9C428F22745894000A6585;
 			remoteInfo = "BeautifulRequests-iOS";
-		};
-		3D9C43072274611B000A6585 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3D9C42A82274599D000A6585;
-			remoteInfo = "BeautifulRequests-tvOS";
-		};
-		3D9C431722746198000A6585 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3D9C42C422745A07000A6585;
-			remoteInfo = "BeautifulRequests-macOS";
 		};
 		3D9C433622746323000A6585 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -81,13 +67,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		39F352D1774DBA43E6A93283 /* Pods-BeautifulRequests-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulRequests-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-BeautifulRequests-iOSTests/Pods-BeautifulRequests-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D9C429022745894000A6585 /* BeautifulRequests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeautifulRequests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C429C227458E8000A6585 /* BeautifulRequests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BeautifulRequests.plist; sourceTree = "<group>"; };
 		3D9C429D227458E8000A6585 /* BeautifulRequestsTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BeautifulRequestsTests.plist; sourceTree = "<group>"; };
 		3D9C42A122745900000A6585 /* BeautifulRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulRequests.swift; sourceTree = "<group>"; };
-		3D9C42A92274599D000A6585 /* BeautifulRequests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeautifulRequests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9C42B7227459D6000A6585 /* BeautifulRequests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeautifulRequests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9C42C522745A07000A6585 /* BeautifulRequests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeautifulRequests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C42D222745B48000A6585 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		3D9C42D322745B48000A6585 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 		3D9C42D422745B48000A6585 /* BeautifulRequests.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BeautifulRequests.podspec; sourceTree = SOURCE_ROOT; };
@@ -100,8 +84,6 @@
 		3D9C42DB22745DB0000A6585 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		3D9C42EC22745FDA000A6585 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		3D9C42F12274604A000A6585 /* BeautifulRequests-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeautifulRequests-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9C43012274611B000A6585 /* BeautifulRequests-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeautifulRequests-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9C431122746198000A6585 /* BeautifulRequests-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeautifulRequests-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C43212274629B000A6585 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C43232274629B000A6585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D9C43252274629B000A6585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,16 +93,25 @@
 		3DB91AC4229AC263002668DA /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = SOURCE_ROOT; };
 		3DB91AC5229AC26C002668DA /* .gitlab-ci.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gitlab-ci.yml"; sourceTree = SOURCE_ROOT; };
 		3DB91AC6229AC272002668DA /* azure-pipelines.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = "azure-pipelines.yml"; sourceTree = SOURCE_ROOT; };
+		5E5827EBA162F721E6B646C1 /* Pods-BeautifulRequests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulRequests-iOS.release.xcconfig"; path = "Target Support Files/Pods-BeautifulRequests-iOS/Pods-BeautifulRequests-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		8CE46EA637C6347CCEB7C34D /* Pods-BeautifulRequests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulRequests-iOS.debug.xcconfig"; path = "Target Support Files/Pods-BeautifulRequests-iOS/Pods-BeautifulRequests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BD58EF4122F503D90023E6BF /* ImageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
+		BD58EF4422F507990023E6BF /* StubImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubImageRequest.swift; sourceTree = "<group>"; };
+		BD58EF4622F507B00023E6BF /* SubDispatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubDispatching.swift; sourceTree = "<group>"; };
+		BD58EF4C22F509C80023E6BF /* ImageReuqest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageReuqest.swift; sourceTree = "<group>"; };
 		BD7CA17122F4C11A00992B4E /* HTTPLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPLog.swift; sourceTree = "<group>"; };
 		BD7CA17322F4C11A00992B4E /* BeautifulWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulWrapper.swift; sourceTree = "<group>"; };
 		BD7CA17422F4C11A00992B4E /* AssertMainThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssertMainThread.swift; sourceTree = "<group>"; };
 		BD7CA17622F4C11A00992B4E /* BeautifulErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulErrors.swift; sourceTree = "<group>"; };
 		BD7CA17822F4C11B00992B4E /* ImageRemoteSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRemoteSource.swift; sourceTree = "<group>"; };
-		BD7CA17922F4C11B00992B4E /* ImageRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
 		BD7CA17B22F4C11B00992B4E /* UIImageView+Beautiful.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Beautiful.swift"; sourceTree = "<group>"; };
 		BD7CA18422F4C33800992B4E /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		BD7CA18822F4C3CD00992B4E /* ThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
 		BD7CA18922F4C3CD00992B4E /* ThumbnailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThumbnailCell.xib; sourceTree = "<group>"; };
+		BD7CA18C22F4CAA300992B4E /* Dispatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatching.swift; sourceTree = "<group>"; };
+		C865C70C425201E9E83A1726 /* Pods_BeautifulRequests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautifulRequests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EA76A005A8FF3CD96E362D /* Pods-BeautifulRequests-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulRequests-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BeautifulRequests-iOSTests/Pods-BeautifulRequests-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7D49F978DA687AFCF2212F6 /* Pods_BeautifulRequests_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautifulRequests_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,27 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42A62274599D000A6585 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42B4227459D6000A6585 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42C222745A07000A6585 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				AA0FD04247184E4872B37A03 /* Pods_BeautifulRequests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,22 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9C42F62274604A000A6585 /* BeautifulRequests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42FE2274611B000A6585 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C43062274611B000A6585 /* BeautifulRequests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C430E22746198000A6585 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C431622746198000A6585 /* BeautifulRequests.framework in Frameworks */,
+				9EC3570D0348DD34DCA6CCDD /* Pods_BeautifulRequests_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +151,8 @@
 				3D9C43222274629B000A6585 /* Example */,
 				3D9C429B227458E8000A6585 /* Configs */,
 				3D9C429122745894000A6585 /* Products */,
+				E7BF6CD0A173CDFE920E7E09 /* Pods */,
+				66C5F6151C2A1192A841CDAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,12 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				3D9C429022745894000A6585 /* BeautifulRequests.framework */,
-				3D9C42A92274599D000A6585 /* BeautifulRequests.framework */,
-				3D9C42B7227459D6000A6585 /* BeautifulRequests.framework */,
-				3D9C42C522745A07000A6585 /* BeautifulRequests.framework */,
 				3D9C42F12274604A000A6585 /* BeautifulRequests-iOSTests.xctest */,
-				3D9C43012274611B000A6585 /* BeautifulRequests-tvOSTests.xctest */,
-				3D9C431122746198000A6585 /* BeautifulRequests-macOSTests.xctest */,
 				3D9C43212274629B000A6585 /* Example.app */,
 			);
 			name = Products;
@@ -250,6 +203,7 @@
 		3D9C42A32274595F000A6585 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				BD58EF4322F5078D0023E6BF /* Stub */,
 				3D9C42EC22745FDA000A6585 /* LinuxMain.swift */,
 				3D9C42D722745CDE000A6585 /* BeautifulRequestsTests.swift */,
 			);
@@ -279,11 +233,30 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		66C5F6151C2A1192A841CDAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C865C70C425201E9E83A1726 /* Pods_BeautifulRequests_iOS.framework */,
+				D7D49F978DA687AFCF2212F6 /* Pods_BeautifulRequests_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD58EF4322F5078D0023E6BF /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				BD58EF4422F507990023E6BF /* StubImageRequest.swift */,
+				BD58EF4622F507B00023E6BF /* SubDispatching.swift */,
+			);
+			path = Stub;
+			sourceTree = "<group>";
+		};
 		BD7CA17222F4C11A00992B4E /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				BD7CA17322F4C11A00992B4E /* BeautifulWrapper.swift */,
 				BD7CA17622F4C11A00992B4E /* BeautifulErrors.swift */,
+				BD7CA18C22F4CAA300992B4E /* Dispatching.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -292,7 +265,8 @@
 			isa = PBXGroup;
 			children = (
 				BD7CA17822F4C11B00992B4E /* ImageRemoteSource.swift */,
-				BD7CA17922F4C11B00992B4E /* ImageRepository.swift */,
+				BD58EF4122F503D90023E6BF /* ImageRepository.swift */,
+				BD58EF4C22F509C80023E6BF /* ImageReuqest.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -305,31 +279,21 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		E7BF6CD0A173CDFE920E7E09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CE46EA637C6347CCEB7C34D /* Pods-BeautifulRequests-iOS.debug.xcconfig */,
+				5E5827EBA162F721E6B646C1 /* Pods-BeautifulRequests-iOS.release.xcconfig */,
+				D4EA76A005A8FF3CD96E362D /* Pods-BeautifulRequests-iOSTests.debug.xcconfig */,
+				39F352D1774DBA43E6A93283 /* Pods-BeautifulRequests-iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
 		3D9C428B22745894000A6585 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42A42274599D000A6585 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42B2227459D6000A6585 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42C022745A07000A6585 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,6 +307,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D9C429822745894000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-iOS" */;
 			buildPhases = (
+				5ADB96FD221AC0D8A1411801 /* [CP] Check Pods Manifest.lock */,
 				3D9C428B22745894000A6585 /* Headers */,
 				3D9C428C22745894000A6585 /* Sources */,
 				3D9C428D22745894000A6585 /* Frameworks */,
@@ -358,70 +323,15 @@
 			productReference = 3D9C429022745894000A6585 /* BeautifulRequests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3D9C42A82274599D000A6585 /* BeautifulRequests-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9C42AE2274599D000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-tvOS" */;
-			buildPhases = (
-				3D9C42A42274599D000A6585 /* Headers */,
-				3D9C42A52274599D000A6585 /* Sources */,
-				3D9C42A62274599D000A6585 /* Frameworks */,
-				3D9C42A72274599D000A6585 /* Resources */,
-				3D9C42CF22745AF5000A6585 /* Run SwiftLint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BeautifulRequests-tvOS";
-			productName = "BeautifulRequests-tvOS";
-			productReference = 3D9C42A92274599D000A6585 /* BeautifulRequests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3D9C42B6227459D6000A6585 /* BeautifulRequests-watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9C42BC227459D6000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-watchOS" */;
-			buildPhases = (
-				3D9C42B2227459D6000A6585 /* Headers */,
-				3D9C42B3227459D6000A6585 /* Sources */,
-				3D9C42B4227459D6000A6585 /* Frameworks */,
-				3D9C42B5227459D6000A6585 /* Resources */,
-				3D9C42D022745AFE000A6585 /* Run SwiftLint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BeautifulRequests-watchOS";
-			productName = "BeautifulRequests-watchOS";
-			productReference = 3D9C42B7227459D6000A6585 /* BeautifulRequests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3D9C42C422745A07000A6585 /* BeautifulRequests-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9C42CA22745A07000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-macOS" */;
-			buildPhases = (
-				3D9C42C022745A07000A6585 /* Headers */,
-				3D9C42C122745A07000A6585 /* Sources */,
-				3D9C42C222745A07000A6585 /* Frameworks */,
-				3D9C42C322745A07000A6585 /* Resources */,
-				3D9C42D122745B08000A6585 /* Run SwiftLint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BeautifulRequests-macOS";
-			productName = "BeautifulRequests-macOS";
-			productReference = 3D9C42C522745A07000A6585 /* BeautifulRequests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		3D9C42F02274604A000A6585 /* BeautifulRequests-iOSTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D9C42F92274604A000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-iOSTests" */;
 			buildPhases = (
+				C86B469C287D7DDD69E294C7 /* [CP] Check Pods Manifest.lock */,
 				3D9C42ED2274604A000A6585 /* Sources */,
 				3D9C42EE2274604A000A6585 /* Frameworks */,
 				3D9C42EF2274604A000A6585 /* Resources */,
+				133EFCB393100325C9E1C00D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -431,42 +341,6 @@
 			name = "BeautifulRequests-iOSTests";
 			productName = "BeautifulRequests-iOSTests";
 			productReference = 3D9C42F12274604A000A6585 /* BeautifulRequests-iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3D9C43002274611B000A6585 /* BeautifulRequests-tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9C43092274611B000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-tvOSTests" */;
-			buildPhases = (
-				3D9C42FD2274611B000A6585 /* Sources */,
-				3D9C42FE2274611B000A6585 /* Frameworks */,
-				3D9C42FF2274611B000A6585 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D9C43082274611B000A6585 /* PBXTargetDependency */,
-			);
-			name = "BeautifulRequests-tvOSTests";
-			productName = "BeautifulRequests-tvOSTests";
-			productReference = 3D9C43012274611B000A6585 /* BeautifulRequests-tvOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3D9C431022746198000A6585 /* BeautifulRequests-macOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9C431922746198000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-macOSTests" */;
-			buildPhases = (
-				3D9C430D22746198000A6585 /* Sources */,
-				3D9C430E22746198000A6585 /* Frameworks */,
-				3D9C430F22746198000A6585 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D9C431822746198000A6585 /* PBXTargetDependency */,
-			);
-			name = "BeautifulRequests-macOSTests";
-			productName = "BeautifulRequests-macOSTests";
-			productReference = 3D9C431122746198000A6585 /* BeautifulRequests-macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		3D9C43202274629B000A6585 /* Example */ = {
@@ -502,22 +376,7 @@
 						CreatedOnToolsVersion = 10.2.1;
 						LastSwiftMigration = 1020;
 					};
-					3D9C42A82274599D000A6585 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
-					3D9C42B6227459D6000A6585 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
-					3D9C42C422745A07000A6585 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
 					3D9C42F02274604A000A6585 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
-					3D9C43002274611B000A6585 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
-					3D9C431022746198000A6585 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					3D9C43202274629B000A6585 = {
@@ -539,12 +398,7 @@
 			projectRoot = "";
 			targets = (
 				3D9C428F22745894000A6585 /* BeautifulRequests-iOS */,
-				3D9C42A82274599D000A6585 /* BeautifulRequests-tvOS */,
-				3D9C42B6227459D6000A6585 /* BeautifulRequests-watchOS */,
-				3D9C42C422745A07000A6585 /* BeautifulRequests-macOS */,
 				3D9C42F02274604A000A6585 /* BeautifulRequests-iOSTests */,
-				3D9C43002274611B000A6585 /* BeautifulRequests-tvOSTests */,
-				3D9C431022746198000A6585 /* BeautifulRequests-macOSTests */,
 				3D9C43202274629B000A6585 /* Example */,
 			);
 		};
@@ -558,42 +412,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D9C42A72274599D000A6585 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42B5227459D6000A6585 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42C322745A07000A6585 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3D9C42EF2274604A000A6585 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42FF2274611B000A6585 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C430F22746198000A6585 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -613,6 +432,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		133EFCB393100325C9E1C00D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeautifulRequests-iOSTests/Pods-BeautifulRequests-iOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Stubber/Stubber.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stubber.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeautifulRequests-iOSTests/Pods-BeautifulRequests-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3D9C42CE22745AEA000A6585 /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -631,7 +472,7 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		3D9C42CF22745AF5000A6585 /* Run SwiftLint */ = {
+		5ADB96FD221AC0D8A1411801 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -639,17 +480,21 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Run SwiftLint";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeautifulRequests-iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-		3D9C42D022745AFE000A6585 /* Run SwiftLint */ = {
+		C86B469C287D7DDD69E294C7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -657,33 +502,19 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Run SwiftLint";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeautifulRequests-iOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		3D9C42D122745B08000A6585 /* Run SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run SwiftLint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -692,38 +523,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7CA19222F4CDB800992B4E /* Dispatching.swift in Sources */,
+				BD58EF4D22F509C80023E6BF /* ImageReuqest.swift in Sources */,
 				BD7CA18322F4C11B00992B4E /* UIImageView+Beautiful.swift in Sources */,
 				BD7CA18122F4C11B00992B4E /* ImageRemoteSource.swift in Sources */,
 				BD7CA17E22F4C11B00992B4E /* AssertMainThread.swift in Sources */,
 				BD7CA17C22F4C11B00992B4E /* HTTPLog.swift in Sources */,
-				BD7CA18222F4C11B00992B4E /* ImageRepository.swift in Sources */,
 				BD7CA18022F4C11B00992B4E /* BeautifulErrors.swift in Sources */,
 				3D9C42A222745900000A6585 /* BeautifulRequests.swift in Sources */,
 				BD7CA17D22F4C11B00992B4E /* BeautifulWrapper.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42A52274599D000A6585 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C42B1227459C1000A6585 /* BeautifulRequests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42B3227459D6000A6585 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C42BF227459F6000A6585 /* BeautifulRequests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42C122745A07000A6585 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C42CD22745A28000A6585 /* BeautifulRequests.swift in Sources */,
+				BD58EF4222F503D90023E6BF /* ImageRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -731,23 +540,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD58EF4822F507D20023E6BF /* StubImageRequest.swift in Sources */,
+				BD58EF4922F507D20023E6BF /* SubDispatching.swift in Sources */,
 				3D9C42FC22746078000A6585 /* BeautifulRequestsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42FD2274611B000A6585 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C430C22746131000A6585 /* BeautifulRequestsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C430D22746198000A6585 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C431C227461AF000A6585 /* BeautifulRequestsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,6 +551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD7CA18522F4C33800992B4E /* DataProvider.swift in Sources */,
+				BD7CA18D22F4CAA300992B4E /* Dispatching.swift in Sources */,
 				3D9C43262274629B000A6585 /* ViewController.swift in Sources */,
 				BD7CA18A22F4C3CE00992B4E /* ThumbnailCell.swift in Sources */,
 				3D9C43242274629B000A6585 /* AppDelegate.swift in Sources */,
@@ -769,16 +565,6 @@
 			isa = PBXTargetDependency;
 			target = 3D9C428F22745894000A6585 /* BeautifulRequests-iOS */;
 			targetProxy = 3D9C42F72274604A000A6585 /* PBXContainerItemProxy */;
-		};
-		3D9C43082274611B000A6585 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3D9C42A82274599D000A6585 /* BeautifulRequests-tvOS */;
-			targetProxy = 3D9C43072274611B000A6585 /* PBXContainerItemProxy */;
-		};
-		3D9C431822746198000A6585 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3D9C42C422745A07000A6585 /* BeautifulRequests-macOS */;
-			targetProxy = 3D9C431722746198000A6585 /* PBXContainerItemProxy */;
 		};
 		3D9C433722746323000A6585 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -927,6 +713,7 @@
 		};
 		3D9C429922745894000A6585 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE46EA637C6347CCEB7C34D /* Pods-BeautifulRequests-iOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -957,6 +744,7 @@
 		};
 		3D9C429A22745894000A6585 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5827EBA162F721E6B646C1 /* Pods-BeautifulRequests-iOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -984,190 +772,9 @@
 			};
 			name = Release;
 		};
-		3D9C42AF2274599D000A6585 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Configs/BeautifulRequests.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hucet.BeautifulRequests-tvOS";
-				PRODUCT_NAME = BeautifulRequests;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		3D9C42B02274599D000A6585 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Configs/BeautifulRequests.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hucet.BeautifulRequests-tvOS";
-				PRODUCT_NAME = BeautifulRequests;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
-		3D9C42BD227459D6000A6585 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Configs/BeautifulRequests.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hucet.BeautifulRequests-watchOS";
-				PRODUCT_NAME = BeautifulRequests;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		3D9C42BE227459D6000A6585 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Configs/BeautifulRequests.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hucet.BeautifulRequests-watchOS";
-				PRODUCT_NAME = BeautifulRequests;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		3D9C42CB22745A07000A6585 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Configs/BeautifulRequests.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hucet.BeautifulRequests-macOS";
-				PRODUCT_NAME = BeautifulRequests;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		3D9C42CC22745A07000A6585 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Configs/BeautifulRequests.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hucet.BeautifulRequests-macOS";
-				PRODUCT_NAME = BeautifulRequests;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		3D9C42FA2274604A000A6585 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4EA76A005A8FF3CD96E362D /* Pods-BeautifulRequests-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Configs/BeautifulRequestsTests.plist;
@@ -1186,6 +793,7 @@
 		};
 		3D9C42FB2274604A000A6585 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F352D1774DBA43E6A93283 /* Pods-BeautifulRequests-iOSTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Configs/BeautifulRequestsTests.plist;
@@ -1199,84 +807,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3D9C430A2274611B000A6585 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Configs/BeautifulRequestsTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hucet.BeautifulRequests-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		3D9C430B2274611B000A6585 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Configs/BeautifulRequestsTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hucet.BeautifulRequests-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
-		3D9C431A22746198000A6585 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Configs/BeautifulRequestsTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hucet.BeautifulRequests-macOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		3D9C431B22746198000A6585 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Configs/BeautifulRequestsTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hucet.BeautifulRequests-macOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1343,56 +873,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D9C42AE2274599D000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D9C42AF2274599D000A6585 /* Debug */,
-				3D9C42B02274599D000A6585 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D9C42BC227459D6000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D9C42BD227459D6000A6585 /* Debug */,
-				3D9C42BE227459D6000A6585 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D9C42CA22745A07000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D9C42CB22745A07000A6585 /* Debug */,
-				3D9C42CC22745A07000A6585 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3D9C42F92274604A000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D9C42FA2274604A000A6585 /* Debug */,
 				3D9C42FB2274604A000A6585 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D9C43092274611B000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D9C430A2274611B000A6585 /* Debug */,
-				3D9C430B2274611B000A6585 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D9C431922746198000A6585 /* Build configuration list for PBXNativeTarget "BeautifulRequests-macOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D9C431A22746198000A6585 /* Debug */,
-				3D9C431B22746198000A6585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

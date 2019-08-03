@@ -8,16 +8,18 @@
 
 import Foundation
 
+func isTesting() -> Bool {
+  return NSClassFromString("XCTestCase") != nil
+}
 func assertMainThread() {
-  let isTesting = NSClassFromString("XCTestCase") != nil
-  if !isTesting && !Thread.current.isMainThread {
+  
+  if !isTesting() && !Thread.current.isMainThread {
     fatalError("It is not the main thread. \(threadName())")
   }
 }
 
 func assertBackgroundThread() {
-  let isTesting = NSClassFromString("XCTestCase") != nil
-  if !isTesting && Thread.current.isMainThread {
+  if !isTesting() && Thread.current.isMainThread {
     fatalError("It is not the background thread. \(threadName())")
   }
 }

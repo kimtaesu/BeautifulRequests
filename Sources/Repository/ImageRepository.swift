@@ -1,21 +1,12 @@
 //
-//  ImageDownloader.swift
-//  BeautifulRequests
+//  ImageRepositoryProtocol.swift
+//  BeautifulRequests-iOS
 //
-//  Created by tskim on 24/07/2019.
-//  Copyright © 2019 hucet. All rights reserved.
+//  Created by tskim on 03/08/2019.
+//  Copyright © 2019 Tyler. All rights reserved.
 //
-
 import UIKit
 
-class ImageRepository {
-
-  let remoteSource: ImageRemoteSource
-  init(remoteSource remote: ImageRemoteSource) {
-    self.remoteSource = remote
-  }
-  func retrieveImage(with url: URL, completionHandler: ((Result<UIImage, Error>) -> Void)? = nil) {
-    assertBackgroundThread()
-    self.remoteSource.retrieveImage(with: url, completionHandler: completionHandler)
-  }
+protocol ImageRepository: class {
+  func retrieveImage(with url: URL, completionHandler: @escaping (Result<UIImage, Error>) -> Void)
 }

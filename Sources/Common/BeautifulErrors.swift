@@ -14,4 +14,5 @@ public enum BeautifulErrors: Error {
   case nonHTTPResponse(res: URLResponse?)
   case noImage(Data?)
   case httpRequestFailed(HTTPURLResponse)
+  case invalidURL
 }

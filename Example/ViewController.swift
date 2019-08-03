@@ -45,6 +45,12 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegateFl
     return images.count
   }
 
+  func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+    guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ThumbnailCell.reuseableKey, for: indexPath) as? ThumbnailCell else {
+      return UICollectionViewCell()
+    }
+    cell.thumbnail.beautiful.cancel()
+  }
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ThumbnailCell.reuseableKey, for: indexPath) as? ThumbnailCell else {
       return UICollectionViewCell()
