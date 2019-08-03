@@ -8,9 +8,14 @@
 
 import Foundation
 class HTTPLog {
+  static var enable = false
+  
   class func log(request: URLRequest) {
-    // disable print http log
+    #if !DEBUG
     return
+    #endif
+    
+    if !enable { return }
     let urlString = request.url?.absoluteString ?? ""
     let components = NSURLComponents(string: urlString)
 
@@ -28,7 +33,7 @@ class HTTPLog {
       requestLog += "\(key): \(value)\n"
     }
     if let body = request.httpBody {
-      requestLog += "\n\(NSString(data: body, encoding: String.Encoding.utf8.rawValue)!)\n"
+      requestLog += "\n\(String(describing: NSString(data: body, encoding: String.Encoding.utf8.rawValue)))\n"
     }
 
     requestLog += "\n------------------------->\n"
@@ -37,8 +42,9 @@ class HTTPLog {
 
   class func log(data: Data?, response: HTTPURLResponse?, error: Error?) {
     #if !DEBUG
-      return
+    return
     #endif
+    if !enable { return }
     let urlString = response?.url?.absoluteString
     let components = NSURLComponents(string: urlString ?? "")
 
@@ -64,7 +70,7 @@ class HTTPLog {
       responseLog += "\n\(String(describing: body))\n"
     }
     if error != nil {
-      responseLog += "\nError: \(error!.localizedDescription)\n"
+      responseLog += "\nError: \(String(describing: error?.localizedDescription))\n"
     }
 
     responseLog += "<------------------------\n"

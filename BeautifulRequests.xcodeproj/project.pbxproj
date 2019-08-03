@@ -194,6 +194,7 @@
 		3D9C42A0227458FA000A6585 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				BDFA36AC22F529A6001CEE16 /* Config */,
 				BD7CA17222F4C11A00992B4E /* Common */,
 				BD7CA17A22F4C11B00992B4E /* Extensions */,
 				BD7CA17722F4C11B00992B4E /* Repository */,
@@ -284,6 +285,13 @@
 				BD7CA17B22F4C11B00992B4E /* UIImageView+Beautiful.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BDFA36AC22F529A6001CEE16 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		E7BF6CD0A173CDFE920E7E09 /* Pods */ = {
