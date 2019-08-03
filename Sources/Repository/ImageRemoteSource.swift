@@ -43,11 +43,11 @@ extension ImageRemoteSource: ImageRepository {
 
     let downloadTask = session.dataTask(with: urlRequest, completionHandler: { data, response, error in
       guard let response = response, let data = data else {
-        completionHandler(.failure(BeautifulErrors.unknwon))
+        completionHandler(.failure(BeautifulError.unknwon))
         return
       }
       guard let httpResponse = response as? HTTPURLResponse else {
-        completionHandler(.failure(BeautifulErrors.nonHTTPResponse(res: response)))
+        completionHandler(.failure(BeautifulError.nonHTTPResponse(res: response)))
         return
       }
       defer { HTTPLog.log(data: data, response: httpResponse, error: error) }
@@ -55,11 +55,11 @@ extension ImageRemoteSource: ImageRepository {
         if let image = UIImage(data: data) {
           completionHandler(.success(image))
         } else {
-          completionHandler(.failure(BeautifulErrors.noImage(data)))
+          completionHandler(.failure(BeautifulError.noImage(data)))
         }
         return
       } else {
-        completionHandler(.failure(BeautifulErrors.httpRequestFailed(httpResponse)))
+        completionHandler(.failure(BeautifulError.httpRequestFailed(httpResponse)))
         return
       }
     })

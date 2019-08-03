@@ -7,6 +7,6 @@
 //
 import UIKit
 
-protocol ImageRepository: class {
+protocol ImageRepository {
   func retrieveImage(with url: URL, completionHandler: @escaping (Result<UIImage, Error>) -> Void)
 }

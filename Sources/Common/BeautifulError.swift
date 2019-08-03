@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum BeautifulErrors: Error {
+public enum BeautifulError: Error {
   case unrecognizableSource
   case unknwon
   case nonHTTPResponse(res: URLResponse?)

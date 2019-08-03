@@ -9,8 +9,6 @@
 import Foundation
 import UIKit
 
-/// Wrapper for Kingfisher compatible types. This type provides an extension point for
-/// connivence methods in Kingfisher.
 public struct BeautifulWrapper<Base> {
   public let base: Base
   public init(_ base: Base) {

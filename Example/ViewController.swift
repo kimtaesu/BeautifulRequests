@@ -47,7 +47,7 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegateFl
 
   func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
     guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ThumbnailCell.reuseableKey, for: indexPath) as? ThumbnailCell else {
-      return UICollectionViewCell()
+      return
     }
     cell.thumbnail.beautiful.cancel()
   }
@@ -55,7 +55,9 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegateFl
     guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ThumbnailCell.reuseableKey, for: indexPath) as? ThumbnailCell else {
       return UICollectionViewCell()
     }
-    cell.thumbnail.beautiful.setImage(with: URL(string: images[indexPath.item]))
+    cell.thumbnail.beautiful.setImage(with: URL(string: images[indexPath.item])) { e in
+      print("cancelled \(e)")
+    }
     return cell
   }
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

@@ -22,10 +22,12 @@
 		BD58EF4822F507D20023E6BF /* StubImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58EF4422F507990023E6BF /* StubImageRequest.swift */; };
 		BD58EF4922F507D20023E6BF /* SubDispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58EF4622F507B00023E6BF /* SubDispatching.swift */; };
 		BD58EF4D22F509C80023E6BF /* ImageReuqest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58EF4C22F509C80023E6BF /* ImageReuqest.swift */; };
+		BD58EF5222F51B440023E6BF /* CancelError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58EF5122F51B440023E6BF /* CancelError.swift */; };
+		BD58EF5422F51E1C0023E6BF /* AssociatedObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58EF5322F51E1C0023E6BF /* AssociatedObjectStore.swift */; };
 		BD7CA17C22F4C11B00992B4E /* HTTPLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17122F4C11A00992B4E /* HTTPLog.swift */; };
 		BD7CA17D22F4C11B00992B4E /* BeautifulWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17322F4C11A00992B4E /* BeautifulWrapper.swift */; };
 		BD7CA17E22F4C11B00992B4E /* AssertMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17422F4C11A00992B4E /* AssertMainThread.swift */; };
-		BD7CA18022F4C11B00992B4E /* BeautifulErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17622F4C11A00992B4E /* BeautifulErrors.swift */; };
+		BD7CA18022F4C11B00992B4E /* BeautifulError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17622F4C11A00992B4E /* BeautifulError.swift */; };
 		BD7CA18122F4C11B00992B4E /* ImageRemoteSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17822F4C11B00992B4E /* ImageRemoteSource.swift */; };
 		BD7CA18322F4C11B00992B4E /* UIImageView+Beautiful.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA17B22F4C11B00992B4E /* UIImageView+Beautiful.swift */; };
 		BD7CA18522F4C33800992B4E /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA18422F4C33800992B4E /* DataProvider.swift */; };
@@ -33,6 +35,7 @@
 		BD7CA18B22F4C3CE00992B4E /* ThumbnailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD7CA18922F4C3CD00992B4E /* ThumbnailCell.xib */; };
 		BD7CA18D22F4CAA300992B4E /* Dispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA18C22F4CAA300992B4E /* Dispatching.swift */; };
 		BD7CA19222F4CDB800992B4E /* Dispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CA18C22F4CAA300992B4E /* Dispatching.swift */; };
+		BDAD247A22F51EBE0015D1D8 /* ImageTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAD247922F51EBE0015D1D8 /* ImageTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +94,6 @@
 		3D9C432D2274629C000A6585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D9C432F2274629C000A6585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DB91AC4229AC263002668DA /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = SOURCE_ROOT; };
-		3DB91AC5229AC26C002668DA /* .gitlab-ci.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gitlab-ci.yml"; sourceTree = SOURCE_ROOT; };
 		3DB91AC6229AC272002668DA /* azure-pipelines.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = "azure-pipelines.yml"; sourceTree = SOURCE_ROOT; };
 		5E5827EBA162F721E6B646C1 /* Pods-BeautifulRequests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulRequests-iOS.release.xcconfig"; path = "Target Support Files/Pods-BeautifulRequests-iOS/Pods-BeautifulRequests-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		8CE46EA637C6347CCEB7C34D /* Pods-BeautifulRequests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulRequests-iOS.debug.xcconfig"; path = "Target Support Files/Pods-BeautifulRequests-iOS/Pods-BeautifulRequests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,16 +101,19 @@
 		BD58EF4422F507990023E6BF /* StubImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubImageRequest.swift; sourceTree = "<group>"; };
 		BD58EF4622F507B00023E6BF /* SubDispatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubDispatching.swift; sourceTree = "<group>"; };
 		BD58EF4C22F509C80023E6BF /* ImageReuqest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageReuqest.swift; sourceTree = "<group>"; };
+		BD58EF5122F51B440023E6BF /* CancelError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelError.swift; sourceTree = "<group>"; };
+		BD58EF5322F51E1C0023E6BF /* AssociatedObjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedObjectStore.swift; sourceTree = "<group>"; };
 		BD7CA17122F4C11A00992B4E /* HTTPLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPLog.swift; sourceTree = "<group>"; };
 		BD7CA17322F4C11A00992B4E /* BeautifulWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulWrapper.swift; sourceTree = "<group>"; };
 		BD7CA17422F4C11A00992B4E /* AssertMainThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssertMainThread.swift; sourceTree = "<group>"; };
-		BD7CA17622F4C11A00992B4E /* BeautifulErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulErrors.swift; sourceTree = "<group>"; };
+		BD7CA17622F4C11A00992B4E /* BeautifulError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulError.swift; sourceTree = "<group>"; };
 		BD7CA17822F4C11B00992B4E /* ImageRemoteSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRemoteSource.swift; sourceTree = "<group>"; };
 		BD7CA17B22F4C11B00992B4E /* UIImageView+Beautiful.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Beautiful.swift"; sourceTree = "<group>"; };
 		BD7CA18422F4C33800992B4E /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		BD7CA18822F4C3CD00992B4E /* ThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
 		BD7CA18922F4C3CD00992B4E /* ThumbnailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThumbnailCell.xib; sourceTree = "<group>"; };
 		BD7CA18C22F4CAA300992B4E /* Dispatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatching.swift; sourceTree = "<group>"; };
+		BDAD247922F51EBE0015D1D8 /* ImageTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTask.swift; sourceTree = "<group>"; };
 		C865C70C425201E9E83A1726 /* Pods_BeautifulRequests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautifulRequests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EA76A005A8FF3CD96E362D /* Pods-BeautifulRequests-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautifulRequests-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BeautifulRequests-iOSTests/Pods-BeautifulRequests-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7D49F978DA687AFCF2212F6 /* Pods_BeautifulRequests_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautifulRequests_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,7 +186,6 @@
 				3D9C42DA22745DB0000A6585 /* .swift-version */,
 				3D9C42D922745DAF000A6585 /* .swiftlint.yml */,
 				3DB91AC4229AC263002668DA /* .travis.yml */,
-				3DB91AC5229AC26C002668DA /* .gitlab-ci.yml */,
 				3DB91AC6229AC272002668DA /* azure-pipelines.yml */,
 			);
 			path = Configs;
@@ -196,6 +200,7 @@
 				BD7CA17422F4C11A00992B4E /* AssertMainThread.swift */,
 				BD7CA17122F4C11A00992B4E /* HTTPLog.swift */,
 				3D9C42A122745900000A6585 /* BeautifulRequests.swift */,
+				BDAD247922F51EBE0015D1D8 /* ImageTask.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -255,8 +260,10 @@
 			isa = PBXGroup;
 			children = (
 				BD7CA17322F4C11A00992B4E /* BeautifulWrapper.swift */,
-				BD7CA17622F4C11A00992B4E /* BeautifulErrors.swift */,
+				BD7CA17622F4C11A00992B4E /* BeautifulError.swift */,
+				BD58EF5122F51B440023E6BF /* CancelError.swift */,
 				BD7CA18C22F4CAA300992B4E /* Dispatching.swift */,
+				BD58EF5322F51E1C0023E6BF /* AssociatedObjectStore.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -529,9 +536,12 @@
 				BD7CA18122F4C11B00992B4E /* ImageRemoteSource.swift in Sources */,
 				BD7CA17E22F4C11B00992B4E /* AssertMainThread.swift in Sources */,
 				BD7CA17C22F4C11B00992B4E /* HTTPLog.swift in Sources */,
-				BD7CA18022F4C11B00992B4E /* BeautifulErrors.swift in Sources */,
+				BD7CA18022F4C11B00992B4E /* BeautifulError.swift in Sources */,
 				3D9C42A222745900000A6585 /* BeautifulRequests.swift in Sources */,
 				BD7CA17D22F4C11B00992B4E /* BeautifulWrapper.swift in Sources */,
+				BDAD247A22F51EBE0015D1D8 /* ImageTask.swift in Sources */,
+				BD58EF5222F51B440023E6BF /* CancelError.swift in Sources */,
+				BD58EF5422F51E1C0023E6BF /* AssociatedObjectStore.swift in Sources */,
 				BD58EF4222F503D90023E6BF /* ImageRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,9 +17,19 @@ class BeautifulRequestsTests: XCTestCase {
 
   override func setUp() {
     super.setUp()
+    setUpSync()
+  }
+  
+  private func setUpSync() {
     imageRequest = StubImageRequest()
     request = BeautifulRequests(dispatching: SyncQueue.stubbedMain, request: imageRequest)
   }
+  
+  private func setUpAsync() {
+    imageRequest = StubImageRequest()
+    request = BeautifulRequests(dispatching: AsyncQueue.background, request: imageRequest)
+  }
+  
   func testRetrieveImage() {
     Stubber.register(imageRequest.retrieveImage) { arg in
       arg.1(Result.success(UIImage()))
@@ -33,6 +43,21 @@ class BeautifulRequestsTests: XCTestCase {
         }
       })
     XCTAssertEqual(Stubber.executions(self.imageRequest.retrieveImage).count, 1)
+  }
+  
+  func testCancelDownload() {
+    setUpAsync()
+    let expectation = self.expectation(description: "Cancel")
+    let task = request.retrieveImage(with: URL(string: "test")!, completionHandler: { result in
+      switch result {
+      case .success: break
+      case .failure(let e):
+        XCTAssertTrue(e is CancelError)
+      }
+      expectation.fulfill()
+    })
+    task.cancel?()
+    waitForExpectations(timeout: 0.1, handler: nil)
   }
 }
 
